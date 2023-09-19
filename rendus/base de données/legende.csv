@@ -1,0 +1,85 @@
+distance;
+calculé a partir des colonnes PPH CP et AC CP;
+pas de valuers manquantes;
+;
+pph age;
+pas de valuers manquantes;
+;
+pph sexe;
+pas de valuers manquantes;
+;
+pph handicape;
+oui;1
+non;0
+-;0
+;
+pph nb heures pratique;
+ -  ;20
+;
+ac experience;
+moins d'un an;1
+1à 2 ans;2
+2 à 4 ans;3
+plus de 4 ans;4
+ - ;aller chercher dans la base de donnéer des inscription à partir du numero d'inscription
+;
+ac frequence;
+Quotidienne;3
+Week-end;2
+Mensuelle;1
+SaisonniÃ¨re;0
+ - ;deduit par la méthode des plus proches voisins du nombre d'heure de pratique
+;
+ac brevet vol libre;
+ - ;deduit par la methode des plus proches voisins
+;
+ac niveau;
+ - ;deduit par la methode des plus proches voisins
+;
+AC SOLO BI VOL LIBRE;
+Solo;0
+Bi pro;1
+Bi asso;2
+;
+AC TYPE VOL VOL LIBRE;
+Pente école;1
+Treuil;2
+Remorqué;3
+ Sur site;4
+Vol montagne;5
+ Cross;6
+ Vol à ski;7
+Compétition;8
+ Voltige;9
+nsp;mediane
+;
+ac surface aile;
+mediane par type d'aile;
+;
+meteo;
+ - ;conditions calmes
+conditions calmes;0
+thermiques forts;1
+Vent variable en intensité et/ou direction;2
+Aérologie turbulente;3
+Vent fort;4
+Rouleaux;5
+orage;6
+fohen;7
+;
+casque;
+oui;0
+non;1
+ - ;0
+;
+parachute;
+oui;0
+non ;1
+ - ;0
+;
+homologation;
+EN-A;0
+EN-B;1
+EN-C;2
+EN-D;3
+CEN-Biplace;-1

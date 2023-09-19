@@ -1,0 +1,14 @@
+pour utiliser le doc 'arbres de decision' il faut:
+- l'executer dans un éditeur bien sur
+- selectionner une des deux bases de données CSV soit la simple soit la complété
+- indiquer la profondeur de l'arbre
+- la précision s'affiche alors
+
+pour lire l'arbre  reportez-vous au doc legende fourni avec les bases de données
+
+
+pour utiliser le doc 'foret d'arbres aléatoire' il faut:
+- l'executer dans un éditeur bien sur
+- selectionner la base de données simple CSV
+- remplir les champs à l'aide de la légende
+- la précision s'affiche alors ainsi que la prédiction

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Feature Values</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        {% for header in feature_headers %}
+            <label for="{{ header }}">{{ header }}</label>
+            <input type="text" id="{{ header }}" name="{{ header }}" required><br><br>
+        {% endfor %}""
+        <input type="submit" value="Predict Gravity">
+    </form>
+    {% if predicted_gravity is not none %}
+        <p>Predicted gravity: {{ predicted_gravity }}</p>
+    {% endif %}
+    <p>Accuracy: {{ accuracy }}</p>
+</body>
+</html>
